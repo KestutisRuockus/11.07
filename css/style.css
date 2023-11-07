@@ -1,0 +1,43 @@
+body {
+  height: 5000px;
+}
+
+.background {
+  height: 1000px;
+  background-image: url(/a.jpg);
+  /* background-color: yellow; */
+
+  /* kartojama tik į dešinę  */
+  /* background-repeat: repeat-x; */
+
+  /* kartojama žemyn */
+  /* background-repeat: repeat-y; */
+
+  /* tiesiog kartojama kol užpilod ekraną*/
+  /* background-repeat: repeat; */
+
+  /* palieka orginalų arba mūsų nurodytą dydį */
+  background-repeat: no-repeat;
+
+  /* tikslinė pozicija */
+  /* background-position: 10px 10%; */
+
+  /* pozicija raktiniai =od=iais */
+  /* background-position: top left; */
+  /* background-position: top right; */
+  /* background-position: bottom right; */
+  /* background-position: bottom left; */
+  background-position: center center;
+
+  /* fono dydis -  x y*/
+  /* background-size: 1500px 500px; */
+  /* background-size: 100%; */
+
+  /* apkarpomi kraštai ir bandoma uždengti visą plotą. Talpina lyginant nuotraukos aukštį ir plotį */
+  /* background-size: cover; */
+  /* background-size: contain; */
+
+  /* nurodo, jog nuotrauka liks fiksuotoje vietoje slenkant puslapį */
+  background-attachment: fixed;
+  background: yellow url(/a.jpg) no-repeat center center / cover fixed;
+}

@@ -1,0 +1,89 @@
+html {
+  /* animuotas perėjimas prie nuorodos puspalyje */
+  scroll-behavior: smooth;
+}
+
+body {
+  /* vadinamas "resetas" */
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section {
+  height: 500px;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav {
+  margin-right: 50px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+}
+
+a:hover {
+  color: green;
+  font-size: 30px;
+}
+
+/* a:visited {
+  color: red;
+} */
+
+a:active {
+  color: yellow;
+}
+
+/* li {
+  float: left;
+  paverčia elementus į eilutę
+  display: inline;
+  paverčia elementus į stulpelį
+  display: block;
+  display: inline-block;
+} */
+
+.color1 {
+  background-color: magenta;
+}
+.color2 {
+  background-color: yellow;
+}
+.color3 {
+  background-color: yellowgreen;
+}
+.color4 {
+  background-color: red;
+}
+.color5 {
+  background-color: blue;
+}
+.color6 {
+  background-color: orange;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+}
