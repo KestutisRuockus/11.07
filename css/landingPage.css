@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Crimson Text", serif;
+}
+
+p {
+  margin: 0;
+}
+
+header {
+  display: flex;
+  height: 128px;
+}
+
+header div img:hover {
+  cursor: pointer;
+}
+
+nav {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+}
+
+nav ul {
+  height: 128px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+}
+
+nav ul li:hover {
+  line-height: 20px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/* ----------------------------------------------------------------------------- */
+/* main */
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section1 div img {
+  height: 500px;
+}
+
+.sale {
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 90px;
+  letter-spacing: 2px;
+}
+
+.sale-collection {
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 15px;
+}
+
+.shop-now {
+  background-color: #000;
+  color: #fff;
+  height: 60px;
+  width: 335px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.sale-timer {
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.section2 {
+  height: 180px;
+  background-color: #76504d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 25px 0;
+}
+
+.section2 article {
+  width: 26%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  margin-right: 50px;
+}
+
+.info h4 {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+.info p {
+  margin: 6px 0;
+}
+
+.info a:visited {
+  font-size: 14px;
+  color: #fff;
+}
+
+.section3 {
+  height: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.section3 div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.section3 h1 {
+  font-size: 26px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  letter-spacing: 1px;
+}
+
+.fashionista {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fashionista p {
+  text-align: start;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.runway {
+  background-color: #000;
+  color: #fff;
+  height: 90px;
+  width: 335px;
+  border-radius: 10px;
+  font-size: 60px;
+}
+
+.logue-magazine {
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
